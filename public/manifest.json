@@ -1,0 +1,60 @@
+{
+  "id": "com.hyperion.marinareviewer",
+  "name": "Hyperion: MARINA Licensure Exam Reviewer",
+  "short_name": "Hyperion",
+  "description": "Offline-first Philippine MARINA Licensure Examination Reviewer for OIC-NW and GMDSS marine deck officers.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0B192C",
+  "theme_color": "#0B192C",
+  "lang": "en",
+  "categories": ["education", "books", "reference"],
+  "icons": [
+    {
+      "src": "/compass.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/ic_hyperion_icon_1790342840019.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "OIC-NW Review",
+      "short_name": "OIC-NW",
+      "description": "Start Officer in Charge of a Navigational Watch practice",
+      "url": "/?track=OIC-NW"
+    },
+    {
+      "name": "GMDSS Review",
+      "short_name": "GMDSS",
+      "description": "Start Global Maritime Distress and Safety System practice",
+      "url": "/?track=GMDSS"
+    },
+    {
+      "name": "Mock Exam",
+      "short_name": "Mock Exam",
+      "description": "Take 100-item timed simulation",
+      "url": "/?screen=ExamSetup"
+    }
+  ]
+}

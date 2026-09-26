@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.hyperion.marinareviewer",
+      "sha256_cert_fingerprints": [
+        "14:6D:E9:75:5F:AC:69:B8:25:2A:8B:79:3F:8E:22:18:6B:44:0E:3C:99:99:A5:71:0F:74:9F:80:61:73:9A:89"
+      ]
+    }
+  }
+]

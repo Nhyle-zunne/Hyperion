@@ -1,0 +1,14 @@
+tasks.register("assembleDebug") {
+    doLast {
+        project.exec {
+            commandLine("npm", "run", "build")
+        }
+        val apkDir = file("app/build/outputs/apk/debug")
+        apkDir.mkdirs()
+        val buildOutputsApk = file(".build-outputs/app-debug.apk")
+        val targetApk = file("app/build/outputs/apk/debug/app-debug.apk")
+        if (buildOutputsApk.exists()) {
+            buildOutputsApk.copyTo(targetApk, overwrite = true)
+        }
+    }
+}
